@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kart Eşleştirme Oyunu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Kart Eşleştirme Oyunu</h1>
+  <div class="game-board" id="game-board"></div>
+
+  <p id="message">⏱ Kalan Süre: 90 saniye</p>
+  <button id="restart-btn" onclick="yenidenBaslat()">🔄 Yeniden Başla</button>
+
+  <audio id="bg-music" src="sounds/music.mp3" autoplay loop hidden></audio>
+  <button id="music-toggle" onclick="muzikToggle()">🎵 Müziği Aç / Kapat</button>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
